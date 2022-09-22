@@ -1,12 +1,12 @@
 // import React from 'react';
 // import { configureStore } from '@reduxjs/toolkit';
 import ReactDOM from 'react-dom/client';
-import Color from './Color';
+// import Color from './Color';
 // import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 // import Redux from './Redux/Redux';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import AppRoute from './Route';
 // import App1 from './App1';
@@ -20,9 +20,10 @@ import reportWebVitals from './reportWebVitals';
 // })
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter> 
-    {/* <App></App> */}
-    <Color></Color>
+      <App></App>
+    {/* <BrowserRouter> */}
+   
+    {/*  <Color></Color> */}
     {/* <App1></App1> */}
     {/* <Provider store={store}>
     <Redux></Redux> */}
