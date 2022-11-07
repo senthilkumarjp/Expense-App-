@@ -8,7 +8,6 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
 
 const App =() => {
-// function App() {
   const Dummy_Expenses = [
     // {
     //   id:1,
